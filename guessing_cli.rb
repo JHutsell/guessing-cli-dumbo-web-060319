@@ -17,6 +17,6 @@ def run_guessing_game
   correct_num = rand(1..6).to_s
   end
   
-  puts "Goodbye and thanks for playing :)"
+  puts "Goodbye!"
   
 end
