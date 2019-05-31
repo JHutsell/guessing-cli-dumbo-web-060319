@@ -16,8 +16,7 @@ def run_guessing_game
   input = gets.chomp
   correct_num = rand(1..6).to_s
   end
-  puts "Goodbye"
   
-  
+  puts "Goodbye and thanks for playing :)"
   
 end
