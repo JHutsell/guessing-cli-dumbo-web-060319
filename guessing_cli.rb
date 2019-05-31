@@ -6,7 +6,8 @@ def run_guessing_game
   correct_num = rand(1..6).to_s
   
   while input != "exit" do 
-    
+    if input == correct_num
+      
     
     
   end
