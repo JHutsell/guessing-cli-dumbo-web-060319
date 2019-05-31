@@ -9,10 +9,8 @@ def run_guessing_game
     puts "Goodbye"
   elsif input.to_i == correct_num
     puts "You guessed the correct number!"
-    puts "exit"
   else
     puts "The computer guessed #{correct_num}"
-    puts "exit"
   end
   
   
