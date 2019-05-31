@@ -12,8 +12,11 @@ def run_guessing_game
       puts "The computer guessed #{correct_num}."
     end
     
-    
+  puts "Guess a number between 1 and 6."
+  input = gets.chomp
+  correct_num = rand(1..6).to_s
   end
+  puts "Goodbye"
   
   
   
